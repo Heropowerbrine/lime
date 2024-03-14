@@ -29,7 +29,6 @@ class IOSHelper
 		}
 		else
 		{
-			commands.push("clean");
                         commands.push("build");
                         commands.push("CODE_SIGN_IDENTITY=\"\"");
                         commands.push("CODE_SIGNING_REQUIRED=\"NO\"");
