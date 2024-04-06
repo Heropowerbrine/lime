@@ -30,10 +30,10 @@ class IOSHelper
 		else
 		{
                         commands.push("build");
-                        commands.push("CODE_SIGN_IDENTITY=\"\"");
+                        /*commands.push("CODE_SIGN_IDENTITY=\"\"");
                         commands.push("CODE_SIGNING_REQUIRED=\"NO\"");
                         commands.push("CODE_SIGN_ENTITLEMENTS=\"\"");
-                        commands.push("CODE_SIGNING_ALLOWED=\"NO\"");
+                        commands.push("CODE_SIGNING_ALLOWED=\"NO\"");*/
 		}
 
 		if (additionalArguments != null)
